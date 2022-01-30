@@ -14,10 +14,11 @@ const Nav = styled.nav`
   max-width: 250px;
   flex: 0 999999 250px;
   height: 250px;
-
+  padding: 0;
   @media (max-width: 700px) {
     & {
       display: none;
+      height: 250px;
     }
   }
 `;
@@ -29,6 +30,7 @@ const Aside = styled.aside`
   margin: 0;
   min-width: 150px;
   max-width: 250px;
+  height: 250px;
   flex: 0 999999 250px;
 `;
 
@@ -37,7 +39,7 @@ const Main = styled.div`
   border: 3px solid;
   border-color: hsl(300deg 75% 60%);
   background: hsl(300deg 75% 60% / 0.2);
-
+  height: 250px;
   flex: 1 1 500px;
 `;
 
